@@ -7,6 +7,7 @@ MANIFEST			This list of files
 META.yml
 README
 t/01-load.t
-t/02-basic.t
+t/02-decorate.t
+t/03-hierarchy.t
 
 SIGNATURE    Added here by Module::Build

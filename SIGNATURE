@@ -1,0 +1,33 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.35.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It would check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 42f39f1774965a7e5b70935f2129af5a5abe200d Build.PL
+SHA1 f1a012d9af4177b8127e48c4261fd3a5b0202ab5 Changes
+SHA1 f235ba4160673bcb7c9d58c2f09dbc7fc0efadea LICENSE
+SHA1 39ab1df7a82653be3fe30e0b0a549e0feee93c76 MANIFEST
+SHA1 a850a32708ccb7f4d0a167681ba799ce64a69d37 META.yml
+SHA1 e86245b6a930636e230cc7607c02cdabe7d1e2fc Makefile.PL
+SHA1 82cdabe3ead04d4088bc5159349e8d6c5a881b2f README
+SHA1 a2db18a7cc2dd0b484eacab0b6f8e23ae8193d07 lib/Class/ClassDecorator.pm
+SHA1 5149c7ea5c53b23e39e5b1219f08880c5dd09181 t/01-load.t
+SHA1 d46467b4c2b530bda63bda7b268cb2387652b3c0 t/02-basic.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.2.3 (GNU/Linux)
+
+iD8DBQE/otMQ+4tbS/niBUoRAnJdAKDHgqPsFAfnnTSV718j619cZSkwiwCeO7lk
+pxht6osbO4/Grq1Ms25ecjk=
+=bO36
+-----END PGP SIGNATURE-----
